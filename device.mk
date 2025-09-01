@@ -32,6 +32,7 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     ApertureOverlayMyron \
     FrameworksResMyron \
+    NfcOverlayMyron \
     SettingsOverlayMyron \
     SettingsProviderOverlayMyron \
     SystemUIResMyron \
