@@ -33,4 +33,6 @@ PRODUCT_PACKAGES += \
     ApertureOverlayMyron \
     FrameworksResMyron \
     SettingsOverlayMyron \
-    SystemUIResMyron
+    SettingsProviderOverlayMyron \
+    SystemUIResMyron \
+    WifiOverlayMyron
