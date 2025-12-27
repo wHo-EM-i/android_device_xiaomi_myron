@@ -1516,7 +1516,7 @@ odm/lib64/libgf_hal.so
 vendor/bin/init.kernel.post_boot-memory.sh
 
 # NFC
-odm/etc/libnfc-nxp_RF.conf:vendor/etc/libnfc-nxp_RF.conf
+odm/etc/libnfc-nxp_RF.conf:vendor/libnfc-nxp_RF.conf
 
 # Sensors
 odm/etc/sensors/config/5cm_blue.png
