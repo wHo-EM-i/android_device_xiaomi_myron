@@ -14,6 +14,9 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from myron device.
 $(call inherit-product, device/xiaomi/myron/device.mk)
 
+# Inherit miuicam
+$(call inherit-product-if-exists, device/xiaomi/myron-miuicamera/device.mk)
+
 ## Device identifier
 PRODUCT_DEVICE := myron
 PRODUCT_NAME := lineage_myron

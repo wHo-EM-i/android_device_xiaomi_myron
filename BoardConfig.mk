@@ -7,8 +7,11 @@
 DEVICE_PATH := device/xiaomi/myron
 KERNEL_PATH := $(DEVICE_PATH)-kernel
 
-# Inherit from sm8650-common
+# Inherit from sm8850-common
 include device/xiaomi/sm8850-common/BoardConfigCommon.mk
+
+# Inherit miuicam
+-include device/xiaomi/myron-miuicamera/BoardConfig.mk
 
 # Display
 TARGET_SCREEN_DENSITY := 420
