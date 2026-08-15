@@ -14,7 +14,7 @@ include device/xiaomi/sm8850-common/BoardConfigCommon.mk
 -include device/xiaomi/myron-miuicamera/BoardConfig.mk
 
 # Display
-TARGET_SCREEN_DENSITY := 420
+TARGET_SCREEN_DENSITY := 480
 
 # Dtb/o
 BOARD_PREBUILT_DTBOIMAGE := $(KERNEL_PATH)/dtbo.img
