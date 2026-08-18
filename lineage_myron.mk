@@ -20,7 +20,7 @@ $(call inherit-product-if-exists, device/xiaomi/myron-miuicamera/device.mk)
 ## Device identifier
 PRODUCT_DEVICE := myron
 PRODUCT_NAME := lineage_myron
-PRODUCT_BRAND := Xiaomi
+PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := 25102RKBEC
 PRODUCT_MANUFACTURER := xiaomi
 
